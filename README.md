@@ -31,16 +31,16 @@ For Sending and Receiving Emails in contact page:
 
 ## 🛠️ Build 
 
-    1. Clone the project
+ Clone the project
 
-    2. Run this command
+ Run this command
     
 ```bash
   npm run build
 ```
-    3. Install dependencies
+   Install dependencies
 
-    4. local run
+   local run
 
 ```bash
   npm start

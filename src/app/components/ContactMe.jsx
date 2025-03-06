@@ -154,18 +154,18 @@ const ContactMe = () => {
                     <Link href={"https://www.linkedin.com/in/swetha-udayakumar-17272b169"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <BsLinkedin className="md:size-10 size-8 text-[#171717] hover:text-[#171717]/15" />
+                        <BsLinkedin className="md:size-10 size-8 text-[#171717] hover:text-slate-200" />
                     </Link>
 
                     <Link href={"https://github.com/swetha-learner"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <IoLogoGithub className="md:size-12 size-8 text-[#171717] hover:text-[#171717]/15" />   
+                        <IoLogoGithub className="md:size-12 size-8 text-[#171717] hover:text-slate-200" />   
                     </Link>
                     <Link href={"mailto:swethaudayakumar3990@gmail.com"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <IoMail className="md:size-12 size-8 text-[#171717] hover:text-[#171717]/15" /> 
+                        <IoMail className="md:size-12 size-8 text-[#171717] hover:text-slate-200" /> 
                     </Link>
                     {/* for foreground background contrast -- check webaim contrast checker */}
                 </div>

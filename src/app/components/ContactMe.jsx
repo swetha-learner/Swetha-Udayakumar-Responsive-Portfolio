@@ -37,8 +37,8 @@ const ContactMe = () => {
   }
 
   return (
-    <section>
-        <h2 id='contact' className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8  md:mb-12 pt-10'>
+    <section id='contact'>
+        <h2 className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8  md:mb-12 pt-10'>
         Turn Ideas into Reality 〰️ With me! ✨
         </h2>
         <div className='flex w-full justify-center items-center'>

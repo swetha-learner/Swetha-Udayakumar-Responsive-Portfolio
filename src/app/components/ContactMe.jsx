@@ -38,7 +38,7 @@ const ContactMe = () => {
 
   return (
     <section>
-        <h2 className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8  md:mb-12 pt-10'>
+        <h2 id='contact' className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8  md:mb-12 pt-10'>
         Turn Ideas into Reality 〰️ With me! ✨
         </h2>
         <div className='flex w-full justify-center items-center'>
@@ -154,18 +154,18 @@ const ContactMe = () => {
                     <Link href={"https://www.linkedin.com/in/swetha-udayakumar-17272b169"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <BsLinkedin className="md:size-10 size-8 text-[#171717] hover:text-[#171717]/15" />
+                        <BsLinkedin className="md:size-10 size-8 text-[#171717] hover:text-slate-200" />
                     </Link>
 
                     <Link href={"https://github.com/swetha-learner"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <IoLogoGithub className="md:size-12 size-8 text-[#171717] hover:text-[#171717]/15" />   
+                        <IoLogoGithub className="md:size-12 size-8 text-[#171717] hover:text-slate-200" />   
                     </Link>
                     <Link href={"mailto:swethaudayakumar3990@gmail.com"} 
                         className="flex flex-row space-x-2 items-center btn gap-2 hover:scale-110 "
                     >
-                        <IoMail className="md:size-12 size-8 text-[#171717] hover:text-[#171717]/15" /> 
+                        <IoMail className="md:size-12 size-8 text-[#171717] hover:text-slate-200" /> 
                     </Link>
                     {/* for foreground background contrast -- check webaim contrast checker */}
                 </div>

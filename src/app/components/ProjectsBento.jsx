@@ -80,7 +80,7 @@ const ProjectsBento = () => {
   )
   return (
     <>
-    <h2 id='about' className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8 md:mb-12 pt-16'>
+    <h2 id='works' className='text-center text-4xl md:text-6xl font-bold text-white mt-4 mb-8 md:mb-12 pt-16'>
          What I've Been Building
     </h2>
     <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>

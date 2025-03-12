@@ -3,10 +3,10 @@ import GetResume from './GetResume'
 
 const Credential = () => {
   return (
-    <section>
+    <section >
         <div className='grid grid-cols-1 sm:grid-cols-12 '>    
             <div className='col-span-7 place-self-center text-center sm:text-left'>  
-                <h1 className=' text-white mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold '>
+                <h1 id='cred' className=' text-white mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold '>
                     Ready to Level Up your team with me?
                 </h1>
                 <h2 className='text-2xl lg:text-3xl font-bold text-white'>

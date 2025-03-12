@@ -35,7 +35,7 @@ const TechStack = () => {
   return (
     <section className='pt-16 glass'>
       <div className='max-w-[1200px] mx-auto px-4 pb-8 text-center'>
-        <h2 className='text-3xl sm:text-5xl lg:text-6xl text-white font-bold mb-4 pb-2'>
+        <h2 id='about' className='text-3xl sm:text-5xl lg:text-6xl text-white font-bold mb-4 pb-2'>
           My Digital DNA
         </h2> 
         <Marquee pauseOnHover>

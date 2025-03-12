@@ -1,12 +1,12 @@
 "use client";
 import React from 'react'
+import Link from 'next/link';
 // import { TypeAnimation } from 'react-type-animation';
 import { Typewriter } from 'react-simple-typewriter';
 import { Spotlight } from './ui/Spotlight';
 
 
-const Hero = () => {
-  
+const Hero = () => {  
   return (
     <section>
     <div className='grid grid-cols-1 sm:grid-cols-12 '>
@@ -52,21 +52,22 @@ const Hero = () => {
                     <div
                         className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#8A2387] via-[#E94057] to-[#F27121] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                     </div>
-                    <button
+                    <a
+                        href='#contact'
                         className="relative sm:w-fit inline-flex items-center justify-center mr-4 w-full px-6 py-3   rounded-full text-lg font-semibold text-white transition-all duration-200 bg-gray-900 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                         >Let&apos;s talk
-                    </button>
+                    </a>
                 </div>
                 &nbsp;
                 <div className="relative inline-flex  group ">
                     <div
                         className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#8A2387] via-[#E94057] to-[#F27121] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                     </div>
-                    <button
+                    <a
+                        href='#cred'
                         className="relative sm:w-fit inline-flex items-center justify-center mr-4 w-full px-6 py-3   rounded-full text-lg font-semibold text-white transition-all duration-200 bg-gray-900 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-                        >Check out my creds
-                        
-                    </button>
+                        >Check out my creds  
+                    </a>
                 </div>
             </div>
         </div>

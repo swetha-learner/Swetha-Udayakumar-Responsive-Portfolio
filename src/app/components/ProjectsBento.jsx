@@ -17,7 +17,7 @@ const ProjectData = [
         id: 2,
         title: "Responsive Portfolio",
         description: "My responsive portfolio, built with Next.js for high performance, scalability, & seamless user experience. Designed to adapt across all devices, it features dynamic content, smooth navigation, and optimized loading speeds. Explore my projects and skills through a modern interface that highlights both design and functionality.",
-        image:"/images/Project/Portfolio.png",
+        image:"/images/Project/portfolio.png",
         tag: ["Everything","Web"],
         gitUrl: "/",
         preview:"/",
